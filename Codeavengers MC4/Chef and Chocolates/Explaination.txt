@@ -1,0 +1,25 @@
+Here you can take the pattern as
+
+(for N=5)
+
+
+    *
+  * *
+* * * * *
+  * *
+    *
+
+In order to find number of ASTERISKS you can use the following formula:
+
+	= n+(n/2)(n/2+1)
+
+and then you can get the value of R.
+
+Suppose for above case R=11 and mentioned that 1rs --> 1 chocolate and 3 wrappers --> 1 chocolate
+So we have 
+           11 ruppees --> 11 chocolates --> 11 chocolate covers
+  11 chocolate covers -->  3 chocolates -->  5 chocolate covers (11-9+3)
+   5 chocolate covers -->  1 chocolate  -->  3 chocolate covers (5-3+1)
+   3 chocolate covers -->  1 chocolate  -->  1 chocolate covers (3-3+1)
+
+Total = 16 chocolates

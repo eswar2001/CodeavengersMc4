@@ -1,0 +1,8 @@
+Here you need to find the number of bits which are fliping in each increment.
+So in order to find that you can XOR the values.
+for eg:
+
+	10^11: 1010 ^ 1011 = 0001= number of bits flipped= count(setbits)
+	so in each case you need to XOR the values and then count their number of bits
+	and add them then you can get some value.
+for the result find its binary number and find the no of set bits and find whether they are even or odd.

@@ -1,0 +1,46 @@
+Chef and Competition
+
+Chef has attended a contest conducted by Codechef Student Chapter, VIIT where he got an interesting program to solve.
+Now your task is to help the chef to solve that question. If chef wins the contest then you will get a party from chef.
+He needs to find the number K  ie. K is the total number of flips those bits made to increment from $0$ to $N-1$.
+So chef need to find the number of set bits in K is weather even or odd for the given values of N
+Help the chef to complete the above problem and enjoy the party from the chef.
+
+Input:
+
+- First line will contain T, number of testcases. Then the testcases follow. 
+- The first line of each test case contains single integer N. 
+
+Output:
+
+- For each test case, print a single line Even or Odd.
+
+Constraints: 
+- 1 <= T <= 10^9
+- 2 <= N <= 10^9
+
+Sample Input:
+
+    1
+    10
+
+Sample Output:
+
+    Odd
+	
+EXPLANATION:
+
+    Value  Flips in each increment
+    0000
+    0001    -    1
+    0010    -    2
+    0011    -    1
+    0100    -    3
+    0101    -    1
+    0110    -    2
+    0111    -    1
+    1000    -    4
+    1001    -    1
+               ----
+                16  :  10000  
+    No of set bits = Odd

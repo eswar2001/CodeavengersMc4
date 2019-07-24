@@ -1,0 +1,31 @@
+Each number in segment display takes the following segements:
+
+0 - 6 segments
+1 - 2 segments
+2 - 5 segments
+3 - 5 segments
+4 - 4 segments
+5 - 5 segments
+6 - 6 segments
+7 - 3 segments
+8 - 7 segments
+9 - 6 segments
+
+so for example the number be i) 123
+	
+	total segments = 2+5+5 = 12
+	since the maximum number shoud be with more digits we use the number using smallest segments
+	
+	so 1 and 7 are smallest. Therfore if the segements count is even we can directly print one's
+	else ie. ODD we can print 7 and followed by ones, the reason is we use 2 segements to make 1 
+	which is even and 3 segments to make 7 which is odd.
+
+	Answer = 111111 --> (12/2 no of one's)
+similarly : ii) 333
+	
+	total segments = 15
+	
+	Answer = 7111111
+
+   	7		111111
+	15-3 = 12	12/2 = 6 ,so the answer is 7111111

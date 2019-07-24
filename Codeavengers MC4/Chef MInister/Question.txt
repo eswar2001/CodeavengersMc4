@@ -1,0 +1,49 @@
+Chef become the Minister of Chef Land. Chef given appointments to some of the people in Chef Land from 7:00 P.M. 
+All of them came to chef's office to meet chef,but chef will meet them based on their priority levels. Each person i has priority P[i]. 
+Now you have given the priorities of them along with their time to complete their conversation.
+So now you have to find the time of entry into the minister's office of the Kth person in the list.
+
+Input:
+
+- First line will contain T, number of testcases. Then the testcases follow. 
+- First line of each test case takes number of appointments N.
+- Next N lines follows Each appointment priority  P and coversation time in Minutes
+- Next line takes value of K i.e. Kth member in given appointments 
+
+Output:
+
+For each testcase, output in a single line answer time at which $K$<sup>th</sup> person enters the Chef's Office.
+
+Constraints 
+
+- 1 <= T <= 1000
+- 1 <= N <= 10^5
+- 1 <= P <= N
+- 1 <= Time <= 10^5
+
+Sample Input:
+
+	1
+	3
+	2 10
+	1 20
+	3 30
+	1
+
+Sample Output:
+
+	07:20
+	
+EXPLANATION:
+
+First the person with priority 1 entered the office and came out after 20 min of his meeting
+Therefore his entry time is 07:00
+Second the person with priority 2 entered the office and came out after 10 min of his meeting
+Therefore his entry time is 07:20
+Finally the person with priority 3 entered the office and came out after 30 min of his meeting
+Therefore his entry time is 07:30
+
+Since we want the entry time of First person in the List that is the person with 2nd priority.
+So his entry time is 07:20
+
+

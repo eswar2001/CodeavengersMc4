@@ -1,0 +1,62 @@
+Chef is fond of chocolates. So he goes to his Uncle’s shop who is one of the best coders in Code Chef. As the chef asked for chocolates he gave him one simple task to solve so that he can get as
+many chocolates he wants.
+Here is the task:
+There is an integer N for which it can form the following pattern:
+
+N=5
+
+
+            *
+        *  *
+    *  *  * * *
+        *  *
+            *
+
+
+If N=7
+
+
+         *
+      * *
+   * * *
+* * * * * * *
+   * * *
+      * *
+         *
+
+Now your task is to find the number of ASTERISKS (" * ") in the pattern.
+Suppose the number of ASTERISKS = R, where R = number of rupees chef has with him. You can get one chocolate for $1$ rupee and $1$ chocolate if you return $3$ wrappers (Chocolate covers) to Uncle.
+Now Chef’s task is to find the number of chocolates K he can get for R rupees.
+- Note: The value of N is always ODD.
+
+Input:
+
+- First line will contain T, number of testcases. Then the testcases follow. 
+- The first line of each test case contains single integer N. 
+
+Output:
+
+- For each test case, print the value of K i.e. total number of choclates he can get
+
+Constraints:
+
+- 1 <=   T    <= 10^3
+- 2 <= len(N) <= 10^9
+
+Sample Input:
+    
+    2
+    5
+    7
+
+Sample Output:
+
+    16
+    28
+
+EXPLANATION:
+
+For N=5 number of ASTERISKS = 11, 
+for 11 rupees : chef can get 11+3+1+1 = 16 chocolates
+Similarly, For N=7 number of ASTERISKS = 19.
+So, for 19 rupees : chef can get 19+6+2+1 = 28 chocolates

@@ -1,0 +1,26 @@
+Chef has a Watch which is gifted by his friend.It is a digital watch.
+So the numbers in watch are Seven Segment display.
+
+Now you have a given a number N. You have to find the maximum number K that can be generated using the segments used in that number,  
+i.e if you have given the 123 then in seven segment display number of segments for 1 is 2,
+similarly for 2 it is 5 and 3 it is 5. So totally there are 12 segments.
+By using these 12 segments the maximum number that can be generated is 111111.
+
+Input:
+
+- First line will contain T, number of testcases. Then the testcases follow. 
+- The first line of each test case contains single integer N. 
+
+Output:
+- For each test case, print the largest possible number K
+
+Constraints: 
+- 1 <= T      <= 100
+- 2 <= len(N) <= 100
+
+Sample Input:
+    1
+    123
+
+Sample Output:
+111111

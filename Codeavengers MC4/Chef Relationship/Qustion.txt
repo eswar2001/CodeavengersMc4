@@ -1,0 +1,37 @@
+Chef had a bad experience with string questions that he lost his total confidence in these type of problems. But the problem came with his girlfriend.
+First time she got interest in programming and tried to solve a question based on strings. But got too many errors and asked chef for help.
+In order to maintain a good relationship with her he need to help her in solving that question if not he will be breakup with her.
+Now you need to help him to solve that problem.
+
+She had a string L with many duplicates and one word S of length N.
+you need to find the number of words S can be prepared from L.
+
+Input:
+
+- First line will contain T, number of testcases. Then the testcases follow. 
+- The first line of each test case contains an N.
+- Second line contains word 
+- Last line contains a string of duplicates L
+
+Output:
+
+For each testcase, output in a single line answer i.e. Number if words can be generated from Duplicates L
+
+Constraints 
+
+- 1 <= T <= 1000
+- 2 <= N <= 1000
+- 3 <= len(S) <= 10^5
+
+Sample Input:
+
+	1
+	8
+	avengers
+	aaaaaavvvvvvveeeeennnnnnnnngggeeeeeerrrrrrrrrrrrrrrsss
+
+
+Sample Output:
+
+	3
+	

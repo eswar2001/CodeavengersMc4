@@ -1,0 +1,9 @@
+For this question you can directly go with Priority Scheduling Algorithm.
+
+Suppose the ministers who meet the chef be the processes and the time they spend with chef
+be the burst time of each process. 
+
+so Waiting time of process = Waiting time of before process + burst time of before process
+-> Waiting time of minister = Waiting time of before minister + time spend with chef by before minister
+
+so  Actual time in minutes= (7*60 + waiting time of minister)/60:(7*60 + waiting time of minister)%60 
